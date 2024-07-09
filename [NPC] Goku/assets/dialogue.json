@@ -11,8 +11,8 @@
     //Conversation Topics
         //Vanilla
         "cc_Begin": "",
-        "cc_Boulder": "",
-        "cc_Bridge": "",
+        "cc_Boulder": "The river looks so much better now, maybe I should bring Krillin out here to find a fishing spot.",
+        "cc_Bridge": "The quarry is a great place to train, you should check it out @!",
         "cc_Bus": "",
         "cc_Greenhouse": "",
         "cc_Minecart": "",
