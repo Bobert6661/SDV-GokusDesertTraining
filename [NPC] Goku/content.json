@@ -1,0 +1,53 @@
+{
+    "Format": "2.3.0",
+    "DynamicTokens": [
+        //Is SVE installed? 
+        //This will be used to place Goku on different x y coordinates depending on wether the Vanilla or SVE Desert map is used.
+        {
+            "Name": "HasSVE",
+            "Value": "vanilla",
+        },
+        {
+            "Name": "HasSVE",
+            "Value": "SVE",
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            }
+        }
+    ],
+    "Changes": [
+        // your changes will go here
+        {
+            "Action": "Load",
+            "Target": "Characters/Goku",
+            "FromFile": "assets/sprites.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Goku",
+            "FromFile": "assets/portraits.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Goku",
+            "FromFile": "assets/dialogue.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/schedules/Goku",
+            "FromFile": "assets/schedule.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "FromFile": "assets/disposition_{{HasSVE}}.json" 
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Goku": "You're giving this to me? This is amazing!/207 232 233 400/Thank you! I bet this is tasty./-5 -79 422/...What is this?/80 330/This is disgusting./2/That was very thoughtful of you./-4/ "
+            }
+        }
+    ]
+}

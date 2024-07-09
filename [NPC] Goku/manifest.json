@@ -1,0 +1,11 @@
+{
+    "Name": "Goku's Desert Training",
+    "Author": "Razikhell",
+    "Version": "1.0.0",
+    "Description": "Son Goku was training in the desert but has become too hungry to get himself home. Will you feed him?",
+    "UniqueID": "razikhell.GokusDesertTraining",
+    "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
