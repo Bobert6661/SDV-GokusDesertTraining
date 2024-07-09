@@ -20,12 +20,12 @@
         {
             "Action": "Load",
             "Target": "Characters/Goku",
-            "FromFile": "assets/sprites.png"
+            "FromFile": "assets/images/sprites.png"
         },
         {
             "Action": "Load",
             "Target": "Portraits/Goku",
-            "FromFile": "assets/goku-portraits.png"
+            "FromFile": "assets/images/goku-portraits.png"
         },
         {
             "Action": "Load",
