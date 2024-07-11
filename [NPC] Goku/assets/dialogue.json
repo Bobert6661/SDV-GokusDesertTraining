@@ -10,17 +10,17 @@
     
     //Conversation Topics
         //Vanilla
-        "cc_Begin": "",
+        "cc_Begin": "I can feel the energy of this place, it's potential is amazing!",
         "cc_Boulder": "The river looks so much better now, maybe I should bring Krillin out here to find a fishing spot.",
         "cc_Bridge": "The quarry is a great place to train, you should check it out @!",
-        "cc_Bus": "",
+        "cc_Bus": "The desert is a harsh place, but it's perfect for training. I hope to see you here again.",
         "cc_Greenhouse": "",
-        "cc_Minecart": "",
-        "cc_Complete": "",
+        "cc_Minecart": "I heard the mines have some tough monsters, I'd love to find out for myself!",
+        "cc_Complete": "The valley feels more alive than ever.",
         "movieTheater": "",
         "willyCrabs": "",
-        "pamHouseUpgrade": "",
-        "pamHouseUpgradeAnonymous": "",
+        "pamHouseUpgrade": "I heard you built a house for the bus driver. That's like when the Ox King built me a house.",
+        "pamHouseUpgradeAnonymous": "I heard someone built a house for the bus driver. That's like when the Ox King built me a house.",
         //Vanilla+ (More CTs, 1.6 strings)
         "railroadEarthquake": "",
         "islandResortUnlocked": "",
@@ -38,10 +38,10 @@
         "FlowerDance_Accept_Spouse": "",
         "FlowerDance_Accept": "",
         "FlowerDance_Decline": "",
-        "GreenRain": "", //new event in 1.6
-        "GreenRainFinished": "", //new event in 1.6 - after the event
-        "GreenRain_2": //new event in 1.6 - year 2 occurrence
-        "AcceptGift_(O)StardropTea": "", //new gift reaction - if you don't add this your NPC will spit out a bunch of numbers instead of any dialogue when given this
+        "GreenRain": "Stay inside! We don't know what this green rain could do.", //new event in 1.6
+        "GreenRainFinished": "The sky is clear again, I wonder what caused that green rain...", //new event in 1.6 - after the event
+        "GreenRain_2": "The green rain is back, it hasn't caused any harm so far...",//new event in 1.6 - year 2 occurrence
+        "AcceptGift_(O)StardropTea": "This looks tatsy, thanks!", //new gift reaction - if you don't add this your NPC will spit out a bunch of numbers instead of any dialogue when given this
         //ARV
         "SterlingTrash": "",
         "SterlingTrain": "",
@@ -82,13 +82,13 @@
     
     
     // GENERIC DIALOGUE
-        "Mon": "", 
-        "Tue": "",
-        "Wed": "",
-        "Thu": "",
-        "Fri": "",
-        "Sat": "",
-        "Sun": "",
+        "Mon": "Training in this environment is a nice change of pace.", 
+        "Tue": "I found a great spot to do mental image training",
+        "Wed": "The weather is perfect for a run, want to join me?",
+        "Thu": "Do you know anybody really strong around here?",
+        "Fri": "I can feel myself getting stronger everyday I train here.",
+        "Sat": "I can't wait to fight Vegeta again, he's always pushing me to my limits!",
+        "Sun": "One of the animals on your farm kinda remind me of Oolong, haha.",
     
         "Mon2": "", 
         "Tue2": "",
@@ -122,8 +122,8 @@
         "Sat8": "",
         "Sun8": "",
     
-        "Mon10": "",
-        "Tue10": "",
+        "Mon10": "Do you know any good spots for training around here?",
+        "Tue10": "I once met a farmer out here who reminded me of my Grandpa.",
         "Wed10": "",
         "Thu10": "",
         "Fri10": "",
