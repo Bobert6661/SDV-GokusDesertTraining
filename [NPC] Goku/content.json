@@ -2,7 +2,7 @@
     "Format": "2.3.0",
     "DynamicTokens": [
         //Is SVE installed? 
-        //This will be used to place Goku on different x y coordinates depending on wether the Vanilla or SVE Desert map is used.
+        //This will be used to place Goku on different x y coordinates depending on whether the Vanilla or SVE Desert map is used.
         {
             "Name": "HasSVE",
             "Value": "vanilla",
@@ -32,11 +32,13 @@
             "Target": "Characters/Dialogue/Goku",
             "FromFile": "assets/dialogue.json"
         },
+        /* At this time we're leaving Goku at his spawn point
         {
             "Action": "Load",
             "Target": "Characters/schedules/Goku",
             "FromFile": "assets/schedule.json"
         },
+        */
         {
             "Action": "EditData",
             "Target": "Data/NPCDispositions",
