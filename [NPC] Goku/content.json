@@ -40,8 +40,8 @@
         },
         */
         {
+            "LogName": "Goku exists!",
             "Action": "include",
-            "Target": "Data/NPCDispositions",
             "FromFile": "assets/disposition_{{HasSVE}}.json" 
         },
         {
