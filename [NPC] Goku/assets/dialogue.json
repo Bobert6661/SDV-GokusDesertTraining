@@ -1,15 +1,9 @@
 {
-    "Changes": 
-        [
-     
-            {
-                "LogName": "",
-                "Action": "EditData",
-                "Target": "Characters/Dialogue/Goku",
-                "Entries": {
+    
     
     //Conversation Topics
         //Vanilla
+        "Introduction": "Hey it's me, Goku!",
         "cc_Begin": "I can feel the energy of this place, it's potential is amazing!",
         "cc_Boulder": "The river looks so much better now, maybe I should bring Krillin out here to find a fishing spot.",
         "cc_Bridge": "The quarry is a great place to train, you should check it out @!",
@@ -146,17 +140,5 @@
         //"fall_26": "", // Day before Spirit's Eve
         //"winter_7": "", // Day before the Ice Festival
         //"winter_24": "", // Day before Winter Star
-                }
-            }
-    
-            //Rainy day dialogue 
-                {	
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/rainy",
-            "Entries": {
-                    "Goku": "{{Random: Hi, @! Wow, you're wet! && Hiya, @. I'm training in the rain today. Never know what circumstances a battle will be in. && I wonder if I could fight lightning... && This rain is refreshing, I'm gonna keep training. && It's dark right now, but I'm sure there will be more sunbeams.$h |inputSeparator=&&}}", //Example of randomized dialogue
-                        }
-        },
-    
-        ]
+
     }
