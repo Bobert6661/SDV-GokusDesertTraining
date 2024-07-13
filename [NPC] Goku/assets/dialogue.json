@@ -7,7 +7,7 @@
         "cc_Begin": "I can feel the energy of this place, it's potential is amazing!",
         "cc_Boulder": "The river looks so much better now. #$b#Maybe I should bring Krillin out here to find a fishing spot.",
         "cc_Bridge": "The quarry is a great place to train, you should check it out @!",
-        "cc_Bus": "The desert is a harsh place, but it's perfect for training. #$b#I hope to see you here again.",
+        "cc_Bus": "The desert is a harsh place, but it's perfect for training. #$e#I hope to see you here again.",
         //"cc_Greenhouse": "",
         "cc_Minecart": "I heard the mines have some tough monsters, I'd love to find out for myself!",
         "cc_Complete": "The valley feels more alive than ever.",
@@ -19,7 +19,7 @@
         //"railroadEarthquake": "",
         //"islandResortUnlocked": "",
         //"jojaMartStruckByLightning": "",
-        "babyBoy": "I named my first son Gohan after my grandfather.",
+        "babyBoy": "I named my first son Gohan after my grandfather.#$b# I bet he'd be friends with %kid1",
         //"babyGirl": "",
         "wedding": "I heard you're getting married. That's the name of a kind of food right?",
         "event_postweddingreception": "I heard you got married. I still feel like that sounds like the name of a food.",
@@ -55,11 +55,13 @@
         //Lucikiel
         "LucikielArrives": "",
         "ReputationIncreased": "",
+        */
         //RSV
-        "RSV_GH1": "", //opening of the RSV community greenhouse
+        //"RSV_GH1": "", //opening of the RSV community greenhouse
         "keahi_prank": "Wow you stink @! You must've been training hard!",
-        "Lidens_Return": "",
-        "Naomi_Return": "",
+        //"Lidens_Return": "",
+        //"Naomi_Return": "",
+        /*
         //Leilani
         "LeilaniArrives": "",
         //Prank the Jojamart
