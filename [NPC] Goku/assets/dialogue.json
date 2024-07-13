@@ -1,47 +1,42 @@
 {
-    "Changes": 
-        [
-     
-            {
-                "LogName": "",
-                "Action": "EditData",
-                "Target": "Characters/Dialogue/Goku",
-                "Entries": {
+    
     
     //Conversation Topics
         //Vanilla
+        "Introduction": "Hey it's me, Goku!",
         "cc_Begin": "I can feel the energy of this place, it's potential is amazing!",
         "cc_Boulder": "The river looks so much better now, maybe I should bring Krillin out here to find a fishing spot.",
         "cc_Bridge": "The quarry is a great place to train, you should check it out @!",
         "cc_Bus": "The desert is a harsh place, but it's perfect for training. I hope to see you here again.",
-        "cc_Greenhouse": "",
+        //"cc_Greenhouse": "",
         "cc_Minecart": "I heard the mines have some tough monsters, I'd love to find out for myself!",
         "cc_Complete": "The valley feels more alive than ever.",
-        "movieTheater": "",
-        "willyCrabs": "",
+        //"movieTheater": "",
+        "willyCrabs": "Crabs are pretty tasty, dontcha think?",
         "pamHouseUpgrade": "I heard you built a house for the bus driver. That's like when the Ox King built me a house.",
         "pamHouseUpgradeAnonymous": "I heard someone built a house for the bus driver. That's like when the Ox King built me a house.",
         //Vanilla+ (More CTs, 1.6 strings)
-        "railroadEarthquake": "",
-        "islandResortUnlocked": "",
-        "jojaMartStruckByLightning": "",
-        "babyBoy": "",
-        "babyGirl": "",
+        //"railroadEarthquake": "",
+        //"islandResortUnlocked": "",
+        //"jojaMartStruckByLightning": "",
+        //"babyBoy": "",
+        //"babyGirl": "",
         "wedding": "I heard you're getting married. That's the name of a kind of food right?",
         "event_postweddingreception": "I heard you got married. I still feel like that sounds like the name of a food.",
-        "luauBest": "",
-        "luauShorts": "",
-        "luauPoisoned": "",
-        "Characters_MovieInvite_Invited": "",
-        "DumpsterDiveComment": "",
-        "SpouseStardrop": "",
-        "FlowerDance_Accept_Spouse": "",
-        "FlowerDance_Accept": "",
-        "FlowerDance_Decline": "",
+        //"luauBest": "",
+        //"luauShorts": "",
+        //"luauPoisoned": "",
+        //"Characters_MovieInvite_Invited": "",
+        //"DumpsterDiveComment": "",
+        //"SpouseStardrop": "",
+        //"FlowerDance_Accept_Spouse": "",
+        //"FlowerDance_Accept": "",
+        //"FlowerDance_Decline": "",
         "GreenRain": "Stay inside! We don't know what this green rain could do.", //new event in 1.6
         "GreenRainFinished": "The sky is clear again, I wonder what caused that green rain...", //new event in 1.6 - after the event
         "GreenRain_2": "The green rain is back, it hasn't caused any harm so far...",//new event in 1.6 - year 2 occurrence
         "AcceptGift_(O)StardropTea": "This looks tatsy, thanks!", //new gift reaction - if you don't add this your NPC will spit out a bunch of numbers instead of any dialogue when given this
+        /*
         //ARV
         "SterlingTrash": "",
         "SterlingTrain": "",
@@ -78,6 +73,7 @@
         "RubberCatting": "",
         "JortsZoomies": "",
         "OpenAllTheDoors": "",
+        */
     
     
     
@@ -89,7 +85,7 @@
         "Fri": "I can feel myself getting stronger everyday I train here.",
         "Sat": "I can't wait to fight Vegeta again, he's always pushing me to my limits!",
         "Sun": "One of the animals on your farm kinda remind me of Oolong, haha.",
-    
+    /*
         "Mon2": "", 
         "Tue2": "",
         "Wed2": "",
@@ -129,32 +125,20 @@
         "Fri10": "",
         "Sat10": "",
         "Sun10": "",   
-       
+       */
     
         // SPECIFIC DAY DIALOGUE
-        "spring_1": "",
-        "summer_1": "",
-        "fall_1": "",
-        "winter_1": "",
-        "spring_12": "", // Day before the Egg Festival
-        "spring_23": "", // Day before the Flower Dance
-        "summer_10": "", // Day before the Luau
-        "summer_27": "", // Day before the Midnight Jellies
-        "fall_15": "", // Day before the Stardew Fair
-        "fall_26": "", // Day before Spirit's Eve
-        "winter_7": "", // Day before the Ice Festival
-        "winter_24": "", // Day before Winter Star
-                }
-            }
-    
-            //Rainy day dialogue 
-                {	
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/rainy",
-            "Entries": {
-                    "Goku": "{{Random: Hi, @! Wow, you're wet! && Hiya, @. I'm training in the rain today. Never know what circumstances a battle will be in. && I wonder if I could fight lightning... && This rain is refreshing, I'm gonna keep training. && It's dark right now, but I'm sure there will be more sunbeams.$h |inputSeparator=&&}}", //Example of randomized dialogue
-                        }
-        },
-    
-        ]
+        "spring_1": "It's the first of spingy",
+        //"summer_1": "",
+        //"fall_1": "",
+        //"winter_1": "",
+        //"spring_12": "", // Day before the Egg Festival
+        //"spring_23": "", // Day before the Flower Dance
+        //"summer_10": "", // Day before the Luau
+        //"summer_27": "", // Day before the Midnight Jellies
+        //"fall_15": "", // Day before the Stardew Fair
+        //"fall_26": "", // Day before Spirit's Eve
+        //"winter_7": "", // Day before the Ice Festival
+        //"winter_24": "", // Day before Winter Star
+
     }

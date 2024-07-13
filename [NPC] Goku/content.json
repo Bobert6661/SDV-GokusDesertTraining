@@ -20,17 +20,25 @@
         {
             "Action": "Load",
             "Target": "Characters/Goku",
-            "FromFile": "assets/images/sprites.png"
+            "FromFile": "assets/sprites/sprites.png"
         },
         {
             "Action": "Load",
             "Target": "Portraits/Goku",
-            "FromFile": "assets/images/goku-portraits.png"
+            "FromFile": "assets/portraits/goku-portraits.png"
         },
         {
             "Action": "Load",
             "Target": "Characters/Dialogue/Goku",
             "FromFile": "assets/dialogue.json"
+        },
+        //Rainy day dialogue 
+        {	
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+            "Entries": {
+                    "Goku": "{{Random: Hi, @! Wow, you're wet! && Hiya, @. I'm training in the rain today. Never know what circumstances a battle will be in. && I wonder if I could fight lightning... && This rain is refreshing, I'm gonna keep training.$h |inputSeparator=&&}}", //randomized dialogue
+                        }
         },
         /* At this time we're leaving Goku at his spawn point
         {
@@ -40,8 +48,8 @@
         },
         */
         {
-            "Action": "EditData",
-            "Target": "Data/NPCDispositions",
+            "LogName": "Goku exists!",
+            "Action": "include",
             "FromFile": "assets/disposition_{{HasSVE}}.json" 
         },
         {
