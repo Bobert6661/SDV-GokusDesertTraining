@@ -91,13 +91,12 @@
                     "ShopPosition": "6, 11", // Adjust the position as needed
                     "ShopEvent": "None",
                     "ShopType": "CCBundle",
-                    "ShopTexture": "LooseSprites/BundleCrate",
+                    //"ShopTexture": "LooseSprites/BundleCrate",
                     "DrawQuestionMark": true,
                     "BundleDescription": "Goku is hungry and needs two food items.",
                     "BundleSlots": 2,
                     "Price": {
-                        "Money": 0,
-                        "(O)random food": 2
+                        "194": 2
                     },
                     "BundleReward": {
                         "Type": "Companion",
