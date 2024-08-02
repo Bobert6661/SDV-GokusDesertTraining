@@ -40,13 +40,6 @@
                     "Goku": "{{Random: Hi, @! Wow, you're wet! && Hiya, @. I'm training in the rain today. Never know what circumstances a battle will be in. && I wonder if I could fight lightning... && This rain is refreshing, I'm gonna keep training.$h |inputSeparator=&&}}", //randomized dialogue
                         }
         },
-        /* At this time we're leaving Goku at his spawn point
-        {
-            "Action": "Load",
-            "Target": "Characters/schedules/Goku",
-            "FromFile": "assets/schedule.json"
-        },
-        */
         {
             "LogName": "Goku exists!",
             "Action": "include",
@@ -57,6 +50,65 @@
             "Target": "Data/NPCGiftTastes",
             "Entries": {
                 "Goku": "You're giving this to me? This is amazing!/207 232 233 400/Thank you! I bet this is tasty./-5 -79 422/...What is this?/80 330/This is disgusting./2/That was very thoughtful of you./-4/ "
+            }
+        },
+        // New changes for the quest and companion functionality
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Desert",
+            "Entries": {
+                "GokuRequest": {
+                    "conditions": [
+                        "f GokuRequest",
+                        "n Goku"
+                    ],
+                    "text": "Goku: Hey there! I'm feeling a bit hungry. Could you bring me some food? Any food will do!"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CustomCompanions",
+            "Entries": {
+                "Goku": {
+                    "name": "Goku",
+                    "type": "flying",
+                    "sprite": "assets/sprites/goku.png",
+                    "portrait": "assets/portraits/goku.png",
+                    "behavior": "FollowPlayer",
+                    "combat": true,
+                    "duration": "OneDay"
+                }
+            }
+        },
+        {
+            "LogName": "Goku's Request Bundle",
+            "Action": "EditData",
+            "Target": "UnlockableBundles/Bundles",
+            "Entries": {
+                "Razikhell.GokusDesertTraining_GokuRequestBundle": {
+                    "Location": "Desert",
+                    "ShopPosition": "6, 11", // Adjust the position as needed
+                    "ShopEvent": "None",
+                    "ShopType": "CCBundle",
+                    "ShopTexture": "LooseSprites/BundleCrate",
+                    "DrawQuestionMark": true,
+                    "BundleDescription": "Goku is hungry and needs two food items.",
+                    "BundleSlots": 2,
+                    "Price": {
+                        "Money": 0,
+                        "(O)random food": 2
+                    },
+                    "BundleReward": {
+                        "Type": "Companion",
+                        "ID": "Goku"
+                    },
+                    "BundleCompletedMail": "GokuFoodRequestCompleted",
+                    "BundleName": "Goku's Food Request",
+                    "OverviewDescription": "Goku is hungry and needs two food items.",
+                    "InstantShopRemoval": false,
+                    "QuestionMarkOffset": "32, -32"
+                }
             }
         }
     ]
