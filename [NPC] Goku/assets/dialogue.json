@@ -33,9 +33,9 @@
         //"FlowerDance_Accept": "",
         //"FlowerDance_Decline": "",
         "GreenRain": "Stay inside! We don't know what this green rain could do.", //new event in 1.6
-        "GreenRainFinished": "The sky is clear again, I wonder what caused that green rain...", //new event in 1.6 - after the event
+        "GreenRainFinished": "The sky is clear again, I wonder what caused that green rain...#$b# It kinda reminds me of the sky on Namek", //new event in 1.6 - after the event
         "GreenRain_2": "The green rain is back, it hasn't caused any harm so far...",//new event in 1.6 - year 2 occurrence
-        "AcceptGift_(O)StardropTea": "This looks tatsy, thanks!", //new gift reaction - if you don't add this your NPC will spit out a bunch of numbers instead of any dialogue when given this
+        "AcceptGift_(O)StardropTea": "This looks tasty, thanks!", //new gift reaction - if you don't add this your NPC will spit out a bunch of numbers instead of any dialogue when given this
         /*
         //ARV
         "SterlingTrash": "",
@@ -130,7 +130,7 @@
        */
     
         // SPECIFIC DAY DIALOGUE
-        "spring_1": "It's the first of spingy",
+        "spring_1": "It's the first of spring",
         //"summer_1": "",
         //"fall_1": "",
         //"winter_1": "",
