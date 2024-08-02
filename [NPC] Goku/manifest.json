@@ -7,5 +7,12 @@
     "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
-    }
+    },
+    "Dependencies":[
+  {
+    "UniqueID": "DLX.Bundles",
+    "IsRequired": true
+  }
+]
+
 }
