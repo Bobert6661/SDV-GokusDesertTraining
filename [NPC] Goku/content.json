@@ -99,8 +99,7 @@
                         "194": 2
                     },
                     "BundleReward": {
-                        "Type": "Companion",
-                        "ID": "Goku"
+                        "195": 7
                     },
                     "BundleCompletedMail": "GokuFoodRequestCompleted",
                     "BundleName": "Goku's Food Request",
